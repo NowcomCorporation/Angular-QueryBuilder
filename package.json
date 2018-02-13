@@ -1,5 +1,5 @@
 {
-  "name": "angular2-query-builder",
+  "name": "nowcom-angular2-query-builder",
   "version": "0.2.2",
   "description": "A modernized Angular 2+ query builder based on jquery QueryBuilder",
   "main": "./dist/index.umd.js",
@@ -24,12 +24,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zebzhao/Angular-QueryBuilder"
+    "url": "https://github.com/NowcomCorporation/Angular-QueryBuilder"
   },
   "bugs": {
-    "url": "https://github.com/zebzhao/Angular-QueryBuilder/issues"
+    "url": "https://github.com/NowcomCorporation/Angular-QueryBuilder/issues"
   },
-  "homepage": "https://github.com/zebzhao/Angular-QueryBuilder#readme",
+  "homepage": "https://github.com/NowcomCorporation/Angular-QueryBuilder#readme",
   "scripts": {
     "build": "npm run build:esm && npm run build:umd",
     "build:esm": "gulp inline-templates && npm run ngcompile",
@@ -56,17 +56,17 @@
     "tslint": "tslint"
   },
   "peerDependencies": {
-    "@angular/common": "^4.0.0",
-    "@angular/core": "^4.0.0"
+    "@angular/common": "^5.0.0",
+    "@angular/core": "^5.0.0"
   },
   "devDependencies": {
-    "@angular/common": "^4.0.0",
-    "@angular/compiler": "^4.0.0",
-    "@angular/compiler-cli": "^4.0.0",
-    "@angular/core": "^4.0.0",
-    "@angular/forms": "^4.0.0",
-    "@angular/platform-browser": "^4.0.0",
-    "@angular/platform-browser-dynamic": "^4.0.0",
+    "@angular/common": "^5.0.0",
+    "@angular/compiler": "^5.0.0",
+    "@angular/compiler-cli": "^5.0.0",
+    "@angular/core": "^5.0.0",
+    "@angular/forms": "^5.0.0",
+    "@angular/platform-browser": "^5.0.0",
+    "@angular/platform-browser-dynamic": "^5.0.0",
     "@compodoc/compodoc": "^1.0.0-beta.9",
     "@types/jasmine": "^2.5.47",
     "@types/karma": "^1.7.0",
@@ -75,7 +75,7 @@
     "@types/webpack-env": "^1.13.0",
     "angular2-template-loader": "^0.6.2",
     "codecov": "^2.2.0",
-    "codelyzer": "^3.0.1",
+    "codelyzer": "^4.1.0",
     "concurrently": "^3.4.0",
     "css-loader": "^0.28.1",
     "gh-pages": "^1.0.0",
@@ -101,10 +101,13 @@
     "ts-loader": "^3.5.0",
     "ts-node": "^3.0.4",
     "tslint": "^5.2.0",
-    "typescript": "^2.3.2",
+    "typescript": "2.6.2",
     "webpack": "^3.6.0",
     "webpack-angular-externals": "^1.0.2",
     "webpack-rxjs-externals": "^1.0.0",
     "zone.js": "^0.8.10"
+  },
+  "dependencies": {
+    "ajv": "^6.1.1"
   }
 }
