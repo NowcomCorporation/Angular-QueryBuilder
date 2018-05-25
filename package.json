@@ -1,6 +1,6 @@
 {
-  "name": "angular2-query-builder",
-  "version": "0.2.5",
+  "name": "nowcom-angular2-query-builder",
+  "version": "0.2.5-n.1",
   "description": "A modernized Angular 2+ query builder based on jquery QueryBuilder",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.js",
@@ -56,8 +56,8 @@
     "tslint": "tslint"
   },
   "peerDependencies": {
-    "@angular/common": "^4.0.0",
-    "@angular/core": "^4.0.0"
+    "@angular/common": "4 - 6",
+    "@angular/core": "4 - 6"
   },
   "devDependencies": {
     "@angular/common": "^4.0.0",
